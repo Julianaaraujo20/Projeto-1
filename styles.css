@@ -85,3 +85,64 @@ p {
     margin-top: 10px;
 }
 
+@media screen and (max-width: 900px) {
+    p {
+        display: none;
+    }
+    header {
+        display: none;
+    }
+    img {
+       margin: 50px 30px;
+    }
+
+    .Logo-image {
+        width: 354px;
+        height: 317px;
+        margin-left:30px;
+        display: inline-block;
+        margin-top: 200px;
+        margin-bottom: 10px;
+      
+}
+h1 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60.95px; 
+    width: 263px ;
+    height: 52px;
+    margin-bottom: 10px;
+    text-align: center;
+   
+    
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36.57px;
+    color: #515151;
+    width: 232px;
+    height: 37px;
+    text-align: center;
+    
+}
+
+.button-main{
+    background: #adff00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    color: #000000;
+    filter: drop-shadow (0px 4px 4px rgba(0,0,0,0.25));
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    margin-top: 10px;
+   
+}
+
+
+}
